@@ -28,7 +28,7 @@ INSERT INTO species(name) VALUES ('Pokemon');
 INSERT INTO species(name) VALUES ('Digimon');
 
                     /* Insert Data to foreign key species_id columns */
-UPDATE animals SET species_id = 2 WHERE name LIKE '%mon'
+UPDATE animals SET species_id = 2 WHERE name LIKE '%mon';
 UPDATE animals SET species_id = 1  WHERE species_id IS NULL;
 
                     /* Insert Data to foreign key owner_id columns */
