@@ -13,3 +13,27 @@ ALTER TABLE animals ADD COLUMN species VARCHAR(20);
 
 
 /* Multiple Table */
+                /* owners Table */
+CREATE TABLE owners (
+ id       INT GENERATED ALWAYS AS IDENTITY,
+ full_name  VARCHAR(20),
+ age      INT,
+ PRIMARY KEY (id)
+ );
+
+                /* species Table */
+ CREATE TABLE species (
+ id       INT GENERATED ALWAYS AS IDENTITY,
+ name     VARCHAR(20),
+ PRIMARY KEY (id)
+ );
+
+
+ /* Remove species column */
+  ALTER TABLE animals DROP COLUMN species;
+
+  ALTER TABLE animals ADD COLUMN species_id INT;
+  ALTER TABLE animals ADD FOREIGN KEY (species_id) REFERENCES species (id);
+
+  ALTER TABLE animals ADD COLUMN owner_id INT;
+  ALTER TABLE animals ADD FOREIGN KEY (owner_id) REFERENCES owners (id);
