@@ -37,7 +37,7 @@ UPDATE animals SET owner_id = 2 WHERE name='Gabumon';
 UPDATE animals SET owner_id = 2 WHERE name='Pikachu';
 UPDATE animals SET owner_id = 3 WHERE name='Devimon';
 UPDATE animals SET owner_id = 3 WHERE name='Plantmon';
-Update animals SET owner_id = 4 WHERE name='Charmander';
+UPDATE animals SET owner_id = 4 WHERE name='Charmander';
 UPDATE animals SET owner_id = 4 WHERE name='Squirtle';
 UPDATE animals SET owner_id = 4 WHERE name='Blossom';
 UPDATE animals SET owner_id = 5 WHERE name='Angemon';
