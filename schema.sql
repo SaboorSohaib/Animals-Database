@@ -50,10 +50,10 @@ PRIMARY KEY (id)
 );
 
 
-CREATE TABLE specializations(
- species_id  INT  REFERENCES  species (id),
- vets_id     INT   REFERENCES  vets (id),
- PRIMARY KEY (species_id, vets_id)
+CREATE TABLE specialization (
+vets_id     INT REFERENCES vets(id),
+species_id  INT REFERENCES species(id),
+PRIMARY KEY (species_id, vets_id)
 );
 
 

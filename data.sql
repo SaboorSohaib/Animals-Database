@@ -42,3 +42,18 @@ UPDATE animals SET owner_id = 4 WHERE name='Squirtle';
 UPDATE animals SET owner_id = 4 WHERE name='Blossom';
 UPDATE animals SET owner_id = 5 WHERE name='Angemon';
 UPDATE animals SET owner_id = 5 WHERE name='Boarmon';
+
+/* Join Table */
+
+                    /* Inserting data to vets table */
+INSERT INTO vets (name, age, date_of_graduation)  VALUES ('William Tatcher', 45, '2000-04-23');
+INSERT INTO vets (name, age, date_of_graduation)  VALUES ('Maisy Smith', 26, '2019-01-17');
+INSERT INTO vets (name, age, date_of_graduation)  VALUES ('Stephanie Mendez', 64, '1981-05-04');
+INSERT INTO vets (name, age, date_of_graduation)  VALUES ('Jack Harkness', 38, '2008-06-08');
+
+
+                    /* Inserting data to specialization table */
+INSERT INTO specialization(vets_id, species_id)  VALUES(1,1);
+INSERT INTO specialization(vets_id, species_id)  VALUES(3,2);
+INSERT INTO specialization(vets_id, species_id)  VALUES(3,1);
+INSERT INTO specialization(vets_id, species_id)  VALUES(4,2);
