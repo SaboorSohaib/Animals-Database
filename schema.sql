@@ -13,6 +13,7 @@ ALTER TABLE animals ADD COLUMN species VARCHAR(20);
 
 
 /* Multiple Table */
+
                 /* owners Table */
 CREATE TABLE owners (
  id       INT GENERATED ALWAYS AS IDENTITY,
