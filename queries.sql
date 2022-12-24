@@ -53,3 +53,6 @@ SELECT owners.full_name as full_name , COUNT(*) as count FROM animals JOIN owner
 SELECT animals.name FROM animals JOIN visits ON animals.id = visits.animals_id JOIN vets ON visits.vets_id = vets.id WHERE vets.name='William Tatcher' ORDER BY visits.visit_date DESC LIMIT 1;
 SELECT COUNT(*) AS Different_Animals FROM (SELECT DISTINCT animals.name FROM animals JOIN visits ON animals.id = visits.animals_id JOIN vets ON visits.vets_id = vets.id WHERE vets.name='Stephanie Mendez') AS foo;
 SELECT vets.name, species.name FROM vets FULL JOIN specialization ON vets.id = specialization.vets_id FULL JOIN species ON specialization.species_id = species.id;
+SELECT animals.name FROM animals JOIN visits ON animals.id = visits.animals_id JOIN vets ON visits.vets_id = vets.id WHERE vets.name='Stephanie Mendez' AND visits.visit_date > '2019-04-01' AND visits.visit_date <'2020-08-30';
+SELECT animals.name, COUNT(*) FROM animals JOIN visits ON animals.id = visits.animals_id JOIN vets ON visits.vets_id = vets.id GROUP BY animals.name ORDER BY count DESC LIMIT 1;
+SELECT animals.name FROM animals JOIN visits ON animals.id = visits.animals_id JOIN vets ON visits.vets_id = vets.id WHERE vets.name='Maisy Smith' ORDER BY visits.visit_date ASC LIMIT 1;
