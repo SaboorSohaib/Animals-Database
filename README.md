@@ -58,7 +58,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
-# It is a simple database. we have many tables.
+# It is a database in which we have established different types of relationships.
 
 <details>
   <summary>Client</summary>
