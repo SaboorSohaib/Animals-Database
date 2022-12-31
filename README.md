@@ -58,7 +58,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
-# It is a database in which we have established different types of relationships.It has many tables withe different data about animals and their vets.
+### It is a database in which we have established different types of relationships.It has many tables withe different data about animals and their vets.
 
 <details>
   <summary>Client</summary>
