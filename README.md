@@ -39,6 +39,7 @@ After you're finished please remove all the comments and instructions!
 - [📖 VET CLINIC ](#-vet-clinic-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
+    - [It is a database in which we have established different types of relationships.It has many tables withe different data about animals and their vets.](#it-is-a-database-in-which-we-have-established-different-types-of-relationshipsit-has-many-tables-withe-different-data-about-animals-and-their-vets)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -82,13 +83,13 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
  - Laptop/Desktop.
  - Internet.
- - Node.
+ - PostgreSQL.
  - Vs Code.
 ### Setup
 
 Clone this repository to your desired folder:
- - mkdir my-folder
- - cd my-folder
+ - mkdir my-db
+ - cd my-db
  - git clone [(git@github.com:SaboorSohaib/Animals-Database.git)]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
