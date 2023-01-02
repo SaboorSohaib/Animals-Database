@@ -61,6 +61,13 @@ PRIMARY KEY (species_id, vets_id)
 CREATE TABLE visits (
 animals_id        INT REFERENCES animals(id),
 vets_id           INT REFERENCES vets(id),
-visit_date        date,
-PRIMARY KEY (animals_id, vets_id, visit_date)
+visit_date        date
 );
+
+/*     Perfromance audit   */
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX animal_id_index ON visits(animals_id ASC);
+CREATE INDEX vet_id_index ON visits(vets_id ASC);
+CREATE INDEX owner_id_index ON owners(email ASC);

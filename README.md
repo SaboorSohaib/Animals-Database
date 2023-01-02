@@ -106,6 +106,12 @@ Clone this repository to your desired folder:
 - Twitter: [@twitterhandle](https://twitter.com/absaboorsohaib)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-saboor-sohaib/)
 
+👤 **Selma Hamutenya**
+
+- GitHub: [@SelmaNdapanda](https://github.com/SelmaNdapanda)
+- Twitter: [@SellohBlaq](https://twitter.com/sellohBlaq)
+- LinkedIn: [selma-hamutenya](www.linkedin.com/in/selma-hamutenya)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
