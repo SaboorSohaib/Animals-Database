@@ -65,6 +65,7 @@ visit_date        date
 );
 
 /*     Perfromance audit   */
+
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
 CREATE INDEX animal_id_index ON visits(animals_id ASC);
