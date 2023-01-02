@@ -63,3 +63,6 @@ animals_id        INT REFERENCES animals(id),
 vets_id           INT REFERENCES vets(id),
 visit_date        date
 );
+
+/*     Perfromance audit   */
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
