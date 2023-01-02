@@ -61,6 +61,5 @@ PRIMARY KEY (species_id, vets_id)
 CREATE TABLE visits (
 animals_id        INT REFERENCES animals(id),
 vets_id           INT REFERENCES vets(id),
-visit_date        date,
-PRIMARY KEY (animals_id, vets_id, visit_date)
+visit_date        date
 );
