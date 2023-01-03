@@ -1,4 +1,4 @@
---Create database clicnic 
+CREATE DATABASE clicnic;
 
 CREATE TABLE patients(
 id      INT GENERATED ALWAYS AS IDENTITY,
