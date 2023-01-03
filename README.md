@@ -61,6 +61,8 @@ After you're finished please remove all the comments and instructions!
 
 ### It is a database in which we have established different types of relationships.It has many tables withe different data about animals and their vets.
 
+<img src="vet_clinic_schema" alt="schema" width="140"  height="140" />
+
 <details>
   <summary>Client</summary>
   <ul>
