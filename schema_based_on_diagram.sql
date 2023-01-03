@@ -47,3 +47,12 @@ CREATE TABLE medical_histories_treatments(
 medical_history__id INT REFERENCES medical_histories(id),
 treatments_id INT REFERENCES treatments(id)
 );
+
+--Create Indexes on all tables:
+
+CREATE INDEX ON medical_histories (patient_id);
+CREATE INDEX ON invoices (medical_history__id);
+CREATE INDEX ON invoices_items (invoice_id);
+CREATE INDEX ON invoices_items (treatment_id);
+CREATE INDEX ON medical_histories_treatments (medical_history_id);
+CREATE INDEX ON medical_histories_treatments (treatment_id);
