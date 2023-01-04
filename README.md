@@ -39,7 +39,6 @@ After you're finished please remove all the comments and instructions!
 - [📖 VET CLINIC ](#-vet-clinic-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
-    - [It is a database in which we have established different types of relationships.It has many tables withe different data about animals and their vets.](#it-is-a-database-in-which-we-have-established-different-types-of-relationshipsit-has-many-tables-withe-different-data-about-animals-and-their-vets)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -53,13 +52,12 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 VET CLINIC <a name="about-project"></a>
 
+**VET CLINIC** It is a database in which we have established different types of relationships.It has many tables withe different data about animals and their vets.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
-
-### It is a database in which we have established different types of relationships.It has many tables withe different data about animals and their vets.
 
 <img src="vet_clinic_schema.png" alt="schema" width="1200"  height="500" />
 
